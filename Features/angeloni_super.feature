@@ -2,8 +2,9 @@
 
     Funcionalidade: Buscar produto
 
-        Cenário: Encontrar produto
-            Dado que esteja na página inicial
+        Cenário: Abrir pagina do produto
+            Dado que esteja na home
             Quando abrir o primeiro departamento
-            E o primeiro produto
-            Então mostrar o produto selecionado
+            E selecionar primeiro produto
+            Então abrir uma nova pagina
+            E mostrar o produto

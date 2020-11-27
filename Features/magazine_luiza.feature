@@ -1,10 +1,12 @@
 # language : pt
 
-    Funcionalidade: Adicionar ao carrinho
+    Funcionalidade: Carrinho de compras
 
         Cenário: Adicionar computador ao carrinho
-            Dado que esteja no site Magazine Luiza
+            Dado que esteja cadastrado
+            E na home
             Quando pesquisar por computador
             E encontrar o primeiro
-            Então adicionar ao carrinho de compras
-            E ver o produto no carrinho
+            E selecionar
+            E adicionar ao carrinho
+            Então deve aparecer um produto no carrinho

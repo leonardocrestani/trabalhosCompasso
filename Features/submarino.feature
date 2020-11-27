@@ -1,17 +1,12 @@
 # language : pt
 
-    Funcionalidade: Verificar descontos
+    Funcionalidade: Lista favoritos
 
-    Contexto: Dado que esteja logado no site
-
-        Esquema de cenário: Procurar produtos com desconto
-            Quando selecionado <item>
-            E escolher a marca desejada
-            E utilizar o filtro de descontos
-            Então devem ser mostrados <item> com a % selecionada de desconto
-
-        Exemplos:
-            |   item        |
-            |   smartphones |
-            |   TVs         |
-            |   livros      |
+        Cenário: Favoritar produto
+            Dado que esteja cadastrado
+            E na home
+            Quando selecionar uma categoria
+            E selecionar um produto
+            E abrir a página do produto
+            E clicar em favoritar
+            Então deve aparecer o produto selecionado nos favoritos
