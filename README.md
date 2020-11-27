@@ -1,1 +1,1 @@
-<h3> Teste git <h3>
+<h3> Repositório para atividades Compasso <h3>
